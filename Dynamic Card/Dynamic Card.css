@@ -1,0 +1,52 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* infos */
+
+.infos {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 22%;
+  margin: 0.2rem;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  transition: all 0.3s;
+}
+
+.info:hover {
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+  .info {
+    width: 22%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    width: 46%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .info {
+    width: 100%;
+  }
+}

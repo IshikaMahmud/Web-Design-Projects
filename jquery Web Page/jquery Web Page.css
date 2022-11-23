@@ -1,0 +1,148 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* background-image */
+
+.background-img {
+  background-image: url("images /laptop_.avif");
+  height: 550px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background-opacity {
+  height: 550px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.logo {
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 19px;
+}
+
+.title {
+  padding-top: 11rem;
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+}
+
+/* profession */
+
+.icon {
+  color: dodgerblue;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  font-weight: 500;
+  padding: 9px;
+  border: 1px solid dodgerblue;
+}
+
+.card {
+  box-shadow: 2px 3px 9px black;
+  height: 350px;
+  width: 100%;
+  padding: 14px;
+}
+
+.coe {
+  text-align: center;
+  color: dodgerblue;
+  font-size: 1.3rem;
+}
+
+.para {
+  color: rgb(94, 100, 105);
+  text-align: justify;
+  padding: 11px;
+}
+
+.scroll-bg {
+  background-color: rgb(3, 38, 73);
+  transition: background 1s;
+}
+
+/* last 12 years */
+
+input {
+  width: 90%;
+  padding: 9px;
+}
+
+.icon1 {
+  margin-left: 29px;
+  color: dodgerblue;
+}
+
+/* achives */
+
+.background-black {
+  width: 100%;
+  height: 500px;
+  background-image: url("images /black-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clients {
+  color: #fff;
+  font-size: 1.9rem;
+  margin-top: 3.9rem;
+  text-align: center;
+}
+
+.title1 {
+  margin-top: 9.9rem;
+  text-align: center;
+}
+
+.countable {
+  color: #fff;
+}
+
+/* footer */
+
+footer {
+  background: rgb(3, 3, 14);
+  width: 100%;
+  height: 400px;
+}
+
+/* animation */
+
+.pt1,
+.pt2,
+.pt3,
+.pt4,
+.pt5 {
+  opacity: 0;
+}
+
+.pt1.animated,
+.pt2.animated,
+.pt3.animated,
+.pt4.animated,
+.pt5.animated {
+  opacity: 1;
+}

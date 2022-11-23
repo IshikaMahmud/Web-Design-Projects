@@ -1,0 +1,28 @@
+.dark-mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(22, 21, 21);
+}
+
+.dis {
+  width: 50%;
+  height: 200px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  border: 4px solid blue;
+  border-radius: 10px;
+}
+
+.dis:hover {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid indigo;
+}
+
+#time {
+  font-size: 80px;
+}

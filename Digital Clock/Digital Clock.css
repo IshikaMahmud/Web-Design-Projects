@@ -1,0 +1,21 @@
+/* reset */
+
+* {
+  background-color: #eaeaf3;
+}
+
+/* Real */
+
+.Myclock {
+  top: 34%;
+  left: 33%;
+  position: fixed;
+  background-color: aliceblue;
+  padding: 49px;
+  border-radius: 4px;
+  box-shadow: 0 9px 49px rgba(0, 0, 0, 0.2);
+}
+
+span {
+  font-size: 49px;
+}

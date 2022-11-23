@@ -1,0 +1,74 @@
+.wrap {
+  width: 499px;
+  margin: 19px auto;
+  font-family: sans-serif;
+  color: dodgerblue;
+}
+
+.price-card {
+  border-radius: 21px;
+  box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 50%;
+}
+
+.price-card-desc {
+  position: relative;
+  background-color: aliceblue;
+  padding: 0 19px 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-card-desc::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 19px;
+  top: -20px;
+  left: 0;
+  right: 0;
+}
+
+.price-card-inf {
+  margin-top: auto;
+}
+
+.price-card-l1 {
+  font-size: 15px;
+  color: black;
+  margin: 0;
+  font-weight: normal;
+}
+
+.price-card-code {
+  color: black;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.btn {
+  padding: 4px 19px;
+}
+
+input {
+  border: none;
+  font-size: 19px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input::selection {
+  background: none;
+}

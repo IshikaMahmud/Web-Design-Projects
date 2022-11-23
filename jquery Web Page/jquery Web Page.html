@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="jquery Web Page.css" />
+
+    <!-- bs5 cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- typejs cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"
+      integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- chart cdn -->
+    <script
+      type="text/javascript"
+      src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"
+    ></script>
+
+    <!-- counterup cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+      integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- waypoint cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- owlcarousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+
+    <title>jquery Web Page</title>
+  </head>
+  <body>
+    <!-- background image -->
+    <div class="background-img">
+      <div class="background-opacity">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="images /wd_logo.png"
+                alt="Web Developer Logo"
+                class="logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#further">Further</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- after nav -->
+        <div>
+          <h1 class="title"></h1>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- Profession -->
+    <h1 class="text-center p-4" id="further">Profession</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 pt1">
+          <div class="card">
+            <div class="card-logo text-center">
+              <i class="fa-solid fa-desktop icon"></i>
+            </div>
+            <hr />
+            <h1 class="coe">Computer Engineer</h1>
+
+            <p class="para">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              consectetur ratione nulla exercitationem, nemo debitis suscipit
+              dolorum incidunt quas magnam ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 pt2">
+          <div class="card">
+            <div class="card-logo text-center">
+              <i class="fa-solid fa-laptop-code icon"></i>
+            </div>
+            <hr />
+            <h1 class="coe">Web developer</h1>
+
+            <p class="para">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              consectetur ratione nulla exercitationem, nemo debitis suscipit
+              dolorum incidunt quas magnam ipsum.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 pt3">
+          <div class="card">
+            <div class="card-logo text-center">
+              <i class="fa-solid fa-laptop icon"></i>
+            </div>
+            <hr />
+            <h1 class="coe">Web Design</h1>
+
+            <p class="para">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              consectetur ratione nulla exercitationem, nemo debitis suscipit
+              dolorum incidunt quas magnam ipsum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- last 12 year -->
+    <h1 class="text-center">Last 12 Years</h1>
+    <br /><br />
+    <div class="row p-0 m-0">
+      <div class="col-lg-8 pt4">
+        <h1 class="text-center">Chart</h1>
+        <div id="chart-container" width="100%" height="50"></div>
+      </div>
+      <div class="col-lg-4 pt5">
+        <h2 class="text-center">Schedule</h2>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="Enter Your Schedule"
+          class="input"
+        /><br />
+        <button class="btn btn-info text-white p-1 m-2">Add Schedule</button>
+        <ul id="ul"></ul>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <!-- achives -->
+    <h1 class="text-center p-4">Achives</h1>
+
+    <div class="background-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="title1">
+              <span class="clients">Clients</span><br /><br />
+              <h1 class="countable">600</h1>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="title1">
+              <span class="clients">Projects</span><br /><br />
+              <h1 class="countable">1200</h1>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="title1">
+              <span class="clients">Courses</span><br /><br />
+              <h1 class="countable">100</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br /><br />
+
+    <!-- slider -->
+    <h1 class="text-center" id="about">About</h1>
+
+    <div class="owl-carousel">
+      <div><h1>I</h1></div>
+      <div><h1>S</h1></div>
+      <div><h1>H</h1></div>
+      <div><h1>I</h1></div>
+      <div><h1>K</h1></div>
+      <div><h1>A</h1></div>
+    </div>
+
+    <!-- footer -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <br /><br />
+            <h2 class="text-justify text-white">Contact</h2>
+            <br />
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+              nostrum soluta animi!
+            </p>
+            <p class="text-white">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+              omnis eos cum.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <br /><br />
+            <h2 class="text-justify text-white">About</h2>
+            <br />
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+              nostrum soluta animi!
+            </p>
+            <p class="text-white">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+              omnis eos cum.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <br /><br />
+            <h2 class="text-justify text-white">Location</h2>
+            <br />
+            <p class="text-white">Dhaka, Bangladesh</p>
+            <p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.82239773992!2d90.2792399583853!3d23.780887453261055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1654423469701!5m2!1sen!2sbd"
+                width="100%"
+                height="200"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bs js cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- script -->
+    <script src="jquery Web Page.js"></script>
+  </body>
+</html>

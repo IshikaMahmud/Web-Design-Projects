@@ -1,0 +1,145 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* section */
+section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* header */
+section header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 19px;
+}
+
+section header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section header ul li {
+  list-style: none;
+  margin-left: 19px;
+}
+
+section header ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+section header ul li button {
+  background: #4c85e7;
+  border: none;
+  outline: none;
+  padding: 7px 13px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* main */
+section .main {
+  width: 579px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section .main .search-box {
+  position: relative;
+  width: 100%;
+  margin-top: 19px;
+}
+
+section .main .search-box .search {
+  width: 100%;
+  padding: 12px;
+  padding-left: 44px;
+  padding-right: 59px;
+  border-radius: 29px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 15px;
+}
+
+section .main .search-box .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 11px 19px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+section .main .buttons {
+  margin-top: 19px;
+}
+
+section .main .buttons button {
+  margin: 0 4px;
+  padding: 11px 19px;
+  color: #444;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px solid transparent;
+  outline: none;
+}
+
+section .main .buttons button:hover {
+  border-radius: 1px solid #ddd;
+}
+
+section .main .language {
+  margin-top: 19px;
+}
+
+section .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f3efef;
+}
+
+section .footer .row {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+section .footer .row ul {
+  display: flex;
+}
+
+section .footer .row ul li {
+  list-style: none;
+}
+
+section .footer .row ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #696e75;
+  margin-right: 24px;
+}

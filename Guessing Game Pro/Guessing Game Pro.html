@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="Guessing Game Pro.css" />
+
+    <title>Guessing Game Pro</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-title">
+          <h1>Guessing Game</h1>
+        </div>
+        <div class="card-body">
+          <form action="">
+            <div class="field">
+              <label for="guessNo">Guess any number between 1 to 4 : </label>
+              <input
+                type="number"
+                name="guessNo"
+                id="guessNo"
+                min="1"
+                max="4"
+                required
+              />
+            </div>
+            <div class="button">
+              <button id="result" type="submit" class="btn">Result</button>
+            </div>
+          </form>
+          <p class="res-text"></p>
+          <p class="remaining"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="Guessing Game Pro.js"></script>
+  </body>
+</html>
